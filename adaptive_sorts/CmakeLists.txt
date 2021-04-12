@@ -1,0 +1,3 @@
+add_library(adaptive_sorts adaptive_sorts.cpp adaptive_sorts.h)
+
+target_include_directories(adaptive_sorts PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
